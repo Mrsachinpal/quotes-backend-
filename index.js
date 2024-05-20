@@ -22,7 +22,7 @@ mongoose.connect(URL).then(() => {
 app.use(cookieParser());
 
 app.use(cors({
-    origin: ["http://localhost:5173"]
+    origin: ["https://quote-app-project.netlify.app"]
 }));
 
 app.use(methodOverride('_method'));
